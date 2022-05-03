@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+/* 
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --veryPaleCyan: hsl(193, 100%, 96%);
+    --veryDarkCyan: hsl(192, 100%, 9%);
+    --grayishBlue: hsl(208, 11%, 55%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 100%;
+}
+
+main {
+    padding: 2rem 1rem;
+    background-image: url('./images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-color: var(--veryPaleCyan);
+    text-align: center;
+}
+
+main .nav {
+    /* outline: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+main .nav .huddle-div{
+    /* outline: 1px solid red; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.huddle-div img {
+    max-width: 100%;
+}
+
+.nav .btn{
+   padding: 0.2rem 1.7rem;
+   border-radius: 1rem;
+   border: none;
+   font-family: 'Poppins', sans-serif;
+   background-color: #fff;
+   box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
+   cursor: pointer;
+   color: var(--veryDarkCyan);
+}
+
+main .hero-text {
+    /* outline: 1px solid black; */
+    padding: 0 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-text h1 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.2rem;
+    color: var(--veryDarkCyan);
+}
+
+.hero-text p {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--veryDarkCyan);
+}
+
+main .btn2 {
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--pink);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    box-shadow: 1px 1px 6px 1px hsla(322, 100%, 66%, 50%);
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+main .img-mockup {
+    max-width: 100%;
+    padding: 0 1.8rem;
+}
