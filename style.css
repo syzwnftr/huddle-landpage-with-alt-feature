@@ -102,3 +102,37 @@ main .img-mockup {
     max-width: 100%;
     padding: 0 1.8rem;
 }
+
+.content {
+    padding: 4rem 1rem;
+}
+
+.content .box {
+    /* outline: 1px solid black; */
+    box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.box .img-div {
+    max-width: 250px;
+    margin: 1.6rem auto 3rem auto;
+}
+
+.img-div img {
+    max-width: 100%;
+}
+
+.box h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--veryDarkCyan);
+    margin-bottom: 1.2rem;
+}
+
+.box p {
+    color: var(--grayishBlue);
+    font-family: 'Open Sans', sans-serif;
+    font-size: .96rem;
+}
