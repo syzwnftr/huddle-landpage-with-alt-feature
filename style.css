@@ -206,7 +206,7 @@ main .img-mockup {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0 1.8rem 0;
 }
 
 .socmed a {
@@ -220,12 +220,11 @@ main .img-mockup {
 }
 
 .socmed a i {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #fff;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* margin: 2rem; */
 }
 
 .cpyright-div {
@@ -233,4 +232,5 @@ main .img-mockup {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
+    margin-bottom: 1.5rem;
 }    
