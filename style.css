@@ -200,3 +200,37 @@ main .img-mockup {
     margin-bottom: 1rem;
 }
 
+.socmed {
+    /* outline: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0 3rem 0;
+}
+
+.socmed a {
+    outline: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.socmed a i {
+    font-size: 1.3rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 2rem; */
+}
+
+.cpyright-div {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}    
