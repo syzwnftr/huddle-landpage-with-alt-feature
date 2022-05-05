@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
-/* 
-    font-family: 'Open Sans', sans-serif;
 
-    font-family: 'Poppins', sans-serif;
-*/
 
 :root {
     --pink: hsl(322, 100%, 66%);
@@ -31,7 +27,6 @@ main {
     padding: 2rem 1rem;
     background-image: url('./images/bg-hero-mobile.svg');
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-color: var(--veryPaleCyan);
     text-align: center;
 }
@@ -97,6 +92,11 @@ main .hero-text {
     box-shadow: 1px 1px 6px 1px hsla(322, 100%, 66%, 50%);
     cursor: pointer;
     margin-bottom: 3rem;
+    transition: background 0.3s ease;
+}
+
+.btn2:hover {
+    background-color: hsla(322, 100%, 66%, 80%); 
 }
 
 main .img-mockup {
@@ -161,7 +161,6 @@ main .img-mockup {
     margin-right: 1.8rem;
     display: inline;
     align-items: center;
-    /* width: 100px; */
 }
 
 .info-phone .icon-div  {
@@ -201,6 +200,10 @@ main .img-mockup {
     margin-bottom: 1rem;
 }
 
+.links a:hover {
+    text-decoration: underline;
+}
+
 .socmed {
     /* outline: 1px solid black; */
     display: flex;
@@ -218,6 +221,7 @@ main .img-mockup {
     height: 40px;
     border-radius: 50%;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .socmed a i {
@@ -226,6 +230,15 @@ main .img-mockup {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+.socmed a:hover  {
+    outline: 1px solid var(--pink);
+}
+
+.socmed a:hover i {
+    color: var(--pink);
 }
 
 .cpyright-div {
@@ -257,4 +270,7 @@ main .img-mockup {
 
 .community .btn2 {
     margin-bottom: 0;
+}
+.community .btn2:hover {
+    background-color: hsla(322, 100%, 66%, 70%);
 }
