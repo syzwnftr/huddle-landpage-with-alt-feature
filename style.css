@@ -24,6 +24,7 @@ body {
 
 .container {
     max-width: 100%;
+    position: relative;
 }
 
 main {
@@ -85,7 +86,7 @@ main .hero-text {
     color: var(--veryDarkCyan);
 }
 
-main .btn2 {
+.btn2 {
     padding: 1rem 3.5rem;
     border: none;
     border-radius: 2rem;
@@ -234,3 +235,26 @@ main .img-mockup {
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }    
+
+.community {
+    margin: 0 1rem;
+    padding: 3rem 1.4rem;
+    text-align: center;
+    box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 20%;
+    background-color: #fff;
+    margin-bottom: 6rem;
+}
+
+.community h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: var(--veryDarkCyan);
+    margin-bottom: 1.5rem;
+}
+
+.community .btn2 {
+    margin-bottom: 0;
+}
