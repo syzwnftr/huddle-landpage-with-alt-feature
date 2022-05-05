@@ -42,7 +42,7 @@ main .nav {
     margin-bottom: 4rem;
 }
 
-main .nav .huddle-div{
+.huddle-div{
     /* outline: 1px solid red; */
     width: 100px;
     display: flex;
@@ -104,7 +104,7 @@ main .img-mockup {
 }
 
 .content {
-    padding: 4rem 1rem; 
+    padding: 4rem 1rem 10rem 1rem; 
 }
 
 .content .box {
@@ -137,3 +137,66 @@ main .img-mockup {
     font-family: 'Open Sans', sans-serif;
     font-size: .96rem;
 }
+
+.footer {
+    outline: 1px solid black;
+    padding: 8rem 1rem 2rem 1rem;
+    background-color: var(--veryDarkCyan);
+}
+
+.huddle-div2{
+    /* outline: 1px solid red; */
+    width: 170px;
+    margin-bottom: 2rem;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.icon-div {
+    /* outline: 1px solid red; */
+    margin-right: 1.8rem;
+    display: inline;
+    align-items: center;
+    /* width: 100px; */
+}
+
+.info-phone .icon-div  {
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.info-email .icon-div  {
+    margin-right: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.info p {
+    /* outline: 1px solid white; */
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.info-location img {
+    margin-top: 0.4rem;
+}
+
+
+.links {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
