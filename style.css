@@ -291,3 +291,31 @@ main .img-mockup {
         transform: translate(-50%, -14.5%);
     }
 }
+
+@media (min-width: 900px) {
+    main {
+        padding: 2rem 2rem;
+        text-align: left;
+    }
+
+    .herotext-btn-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .herotext-btn-img > * {
+        /* outline: 1px solid black; */
+        flex-basis: 50%;
+    }
+    
+    .img-mockup {
+        width: 350px;
+        margin-left: 2rem;
+    }
+
+    main .hero-text {
+        text-align: left;
+        margin-top: 4rem;
+        padding: 0;
+    }
+}
