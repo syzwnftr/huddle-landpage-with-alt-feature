@@ -149,6 +149,7 @@ main .img-mockup {
     /* outline: 1px solid red; */
     width: 170px;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .info {
@@ -250,15 +251,17 @@ main .img-mockup {
 }    
 
 .community {
-    margin: 0 1rem;
     padding: 3rem 1.4rem;
     text-align: center;
     box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
     border-radius: 1rem;
     position: absolute;
-    bottom: 20%;
+    width: 95%;
+    bottom: 16%;
+    left: 50%;
+    transform: translate(-50%, -16%);
     background-color: #fff;
-    margin-bottom: 6rem;
+    margin-bottom: 14rem;
 }
 
 .community h2 {
@@ -274,3 +277,7 @@ main .img-mockup {
 .community .btn2:hover {
     background-color: hsla(322, 100%, 66%, 70%);
 }
+
+/* @media (min-width: 376px) {
+
+} */
