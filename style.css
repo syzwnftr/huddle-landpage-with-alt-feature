@@ -318,4 +318,18 @@ main .img-mockup {
         margin-top: 4rem;
         padding: 0;
     }
+
+    .content .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box > * {
+        flex-basis: 50%;
+    }
+
+    .box .img-div {
+        max-width: 300px;
+    }
 }
