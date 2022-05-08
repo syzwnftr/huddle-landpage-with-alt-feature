@@ -343,4 +343,8 @@ main .img-mockup {
         transform: translate(-50%, -24%);
         margin-bottom: 0;
     }
+
+    .info-location p {
+        padding-right: 10rem;
+    }
 }
