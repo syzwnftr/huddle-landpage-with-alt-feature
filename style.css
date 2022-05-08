@@ -332,4 +332,15 @@ main .img-mockup {
     .box .img-div {
         max-width: 300px;
     }
+
+    .box2 .img-div {
+        order: 2;
+    }
+
+    .community { 
+        width: 50%;
+        bottom: 24%;
+        transform: translate(-50%, -24%);
+        margin-bottom: 0;
+    }
 }
