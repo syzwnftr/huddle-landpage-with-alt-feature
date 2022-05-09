@@ -348,3 +348,65 @@ main .img-mockup {
         padding-right: 10rem;
     }
 }
+
+@media (min-width: 1200px) {
+    main {
+        padding: 2rem 3rem
+    }
+
+    .content {
+        padding: 4rem 3rem 12rem 3rem; 
+        
+    }
+
+    .footer {
+        padding: 8rem 3rem 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-except-huddle-logo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .footer-except-huddle-logo > *  {
+        /* outline: 1px solid aqua; */
+        flex-basis: 33%;
+    }
+
+    .info {
+        margin-bottom: 0;
+    }
+
+    .info > * {
+        margin-bottom: 1rem;
+    }
+
+    .info-location p {
+        padding-right: 0;
+    }
+
+    .links {
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .links > * {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socmed {
+        margin: 0 0 10rem 0;
+        justify-content: flex-start;
+    }
+
+    .cpyright-div {
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
