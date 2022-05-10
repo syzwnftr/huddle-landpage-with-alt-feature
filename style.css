@@ -190,18 +190,17 @@ main .img-mockup {
 
 .links {
     margin-top: 4rem;
-    display: flex;
-    flex-direction: column;
 }
 
-.links a {
+.link a {
+    display: block;
     text-decoration: none;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1rem;
 }
 
-.links a:hover {
+.link a:hover {
     text-decoration: underline;
 }
 
@@ -257,9 +256,9 @@ main .img-mockup {
     border-radius: 1rem;
     position: absolute;
     width: 95%;
-    bottom: 16%;
+    bottom: 15.5%;
     left: 50%;
-    transform: translate(-50%, -16%);
+    transform: translate(-50%, -15.5%);
     background-color: #fff;
     margin-bottom: 14rem;
 }
@@ -367,8 +366,9 @@ main .img-mockup {
 
     .footer-except-huddle-logo {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: flex-start;
+        gap: 4rem;
     }
 
     .footer-except-huddle-logo > *  {
@@ -389,6 +389,7 @@ main .img-mockup {
     }
 
     .links {
+        display: flex;
         margin-top: 0;
         flex-direction: row;
         justify-content: space-evenly;
@@ -409,4 +410,12 @@ main .img-mockup {
         margin-bottom: 0;
         text-align: left;
     }
+
+    
+    .community { 
+        width: 50%;
+        bottom: 15%;
+        transform: translate(-50%, -15%);
+    }
+
 }
