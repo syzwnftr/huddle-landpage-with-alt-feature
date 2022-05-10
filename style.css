@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap');
 
 
 :root {
@@ -60,7 +60,7 @@ main .nav {
    color: var(--veryDarkCyan);
 }
 
-main .hero-text {
+.hero-text {
     /* outline: 1px solid black; */
     padding: 0 1.8rem;
     text-align: center;
@@ -244,7 +244,8 @@ main .img-mockup {
 .cpyright-div {
     text-align: center;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }    
@@ -353,9 +354,16 @@ main .img-mockup {
         padding: 2rem 3rem
     }
 
+    .hero-text > *{
+        padding-right : 5rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
     .content {
-        padding: 4rem 3rem 12rem 3rem; 
-        
+        padding: 4rem 3rem 12rem 3rem;    
     }
 
     .footer {
@@ -365,6 +373,7 @@ main .img-mockup {
     }
 
     .footer-except-huddle-logo {
+        /* outline: 1px solid aqua; */
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -372,7 +381,7 @@ main .img-mockup {
     }
 
     .footer-except-huddle-logo > *  {
-        /* outline: 1px solid aqua; */
+        /* outline: 1px solid red; */
         flex-basis: 33%;
     }
 
@@ -409,8 +418,8 @@ main .img-mockup {
     .cpyright-div {
         margin-bottom: 0;
         text-align: left;
+        font-size: 1rem;
     }
-
     
     .community { 
         width: 50%;
@@ -419,3 +428,20 @@ main .img-mockup {
     }
 
 }
+
+@media (min-width: 1300px) {  
+    .footer-except-huddle-logo {
+        gap: 4rem;
+    }
+
+    /* .socmed-cpyright-wrapper {
+        margin-left: rem
+    } */
+
+    .community { 
+        width: 50%;
+        bottom: 14.5%;
+        transform: translate(-50%, -14.5%);
+    }
+}
+
