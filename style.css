@@ -296,6 +296,7 @@ main .img-mockup {
     main {
         padding: 2rem 2rem;
         text-align: left;
+        background-image: url('./images/bg-hero-desktop.svg');
     }
 
     .herotext-btn-img {
@@ -323,9 +324,11 @@ main .img-mockup {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-align: left;
     }
 
     .box > * {
+        /* outline: 1px solid aqua; */
         flex-basis: 50%;
     }
 
@@ -333,8 +336,12 @@ main .img-mockup {
         max-width: 300px;
     }
 
-    .box2 .img-div {
+    .box1 .img-div, .box3 .img-div {
         order: 2;
+    }
+
+    .box-text {
+        padding-right: 7rem;
     }
 
     .community { 
@@ -434,14 +441,34 @@ main .img-mockup {
         gap: 4rem;
     }
 
-    /* .socmed-cpyright-wrapper {
-        margin-left: rem
-    } */
+    .box .img-div {
+        max-width: 400px;
+    }
 
     .community { 
         width: 50%;
-        bottom: 14.5%;
-        transform: translate(-50%, -14.5%);
+        bottom: 13.5%;
+        transform: translate(-50%, -13.5%);
     }
 }
 
+@media (min-width: 1366px) {
+    .hero-text h1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .hero-text > *{
+        padding-right : 14rem;
+    }
+
+    .box-text {
+        padding-left: 7rem;
+    }
+}
