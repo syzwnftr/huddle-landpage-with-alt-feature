@@ -483,4 +483,18 @@ main .img-mockup {
         margin-right: 0;
         margin-left: 10rem;
     }
+
+    .huddle-div2 {
+        margin-left: 4rem;
+    }
+
+    .footer-except-huddle-logo {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .footer-except-huddle-logo > *  {
+        flex-basis: 30%;
+    }
 }
