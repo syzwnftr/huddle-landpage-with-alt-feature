@@ -108,7 +108,7 @@ main .img-mockup {
     padding: 4rem 1rem 12rem 1rem; 
 }
 
-.content .box {
+.box {
     /* outline: 1px solid black; */
     box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
     border-radius: 1rem;
@@ -129,7 +129,7 @@ main .img-mockup {
 .box h2 {
     font-family: 'Poppins', sans-serif;
     color: var(--veryDarkCyan);
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     font-size: 1.25rem;
 }
 
@@ -320,9 +320,9 @@ main .img-mockup {
         padding: 0;
     }
 
-    .content .box {
+    .box {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         text-align: left;
     }
@@ -468,7 +468,19 @@ main .img-mockup {
         padding-right : 14rem;
     }
 
+    .box {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
     .box-text {
-        padding-left: 7rem;
+        margin-right: 10rem;
+        margin-left: 5rem;
+        max-width: 530px;
+    }
+
+    .box2 .box-text {
+        margin-right: 0;
+        margin-left: 10rem;
     }
 }
