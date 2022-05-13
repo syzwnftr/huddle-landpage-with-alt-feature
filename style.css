@@ -212,8 +212,10 @@ main .img-mockup {
     width: 40px;
     height: 40px;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     position: relative;
-    transition: all 0.3s ease;
+    transition: outline 0.3s ease;
 }
 
 .socmed a i {
