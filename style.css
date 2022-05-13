@@ -211,11 +211,13 @@ main .img-mockup {
     text-decoration: none;
     width: 40px;
     height: 40px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     position: relative;
-    transition: outline 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .socmed a i {
