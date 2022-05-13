@@ -217,6 +217,7 @@ main .img-mockup {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-collapse: separate;
     position: relative;
     transition: all 0.3s ease;
 }
