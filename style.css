@@ -201,7 +201,7 @@ main .img-mockup {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     margin: 3rem 0 1.8rem 0;
 }
 
@@ -211,6 +211,7 @@ main .img-mockup {
     text-decoration: none;
     width: 40px;
     height: 40px;
+    margin-right: 1rem;
     /* border-radius: 20px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
