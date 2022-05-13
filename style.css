@@ -212,7 +212,7 @@ main .img-mockup {
     width: 40px;
     height: 40px;
     margin-right: 1rem;
-    -moz-border-top-left-radius: 20px;
+    /* -moz-border-top-left-radius: 20px;
     -moz-border-top-right-radius: 20px;
     -moz-border-bottom-left-radius: 20px;
     -moz-border-bottom-right-radius: 20px;
@@ -220,7 +220,7 @@ main .img-mockup {
     -webkit-border-top-left-radius: 20px;
     -webkit-border-top-right-radius: 20px;
     -webkit-border-bottom-left-radius: 20px;
-    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px; */
 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
