@@ -229,7 +229,7 @@ main .img-mockup {
     border-collapse: separate;
     position: relative;
     transition: all 0.3s ease;
-    overflow: hidden;
+    -webkit-appearance: none;
 }
 
 .socmed a i {
